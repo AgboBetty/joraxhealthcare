@@ -1,0 +1,36 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scroll-bar::-webkit-scrollbar {
+    display: none;
+  }
+  
+/* Hide scrollbar for IE and Edge */
+.no-scroll-bar {
+    -ms-overflow-style: none;
+}
+
+.patches-two-background {
+  background-image: url('../img/shapes/patches2.svg');
+}
+
+.patches-one-background {
+  background-image: url('../img/shapes/patches1.svg');
+}
+
+.half-circles-one-background {
+  background-image: url('../img/shapes/halfcircles1.svg');
+}
+
+/* A wrapper for chat menu */
+.soft-glass-wrapper {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.soft-glass{
+  overflow-y: auto;
+}
+
+.mouse-p{
+  cursor: pointer !important; 
+}
